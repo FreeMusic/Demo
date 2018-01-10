@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		056FA8911F7C95A400B6CAA4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 056FA8901F7C95A400B6CAA4 /* main.m */; };
+		056FA8941F7C95A400B6CAA4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 056FA8931F7C95A400B6CAA4 /* AppDelegate.m */; };
+		056FA8971F7C95A400B6CAA4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 056FA8961F7C95A400B6CAA4 /* ViewController.m */; };
+		056FA89A1F7C95A400B6CAA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 056FA8981F7C95A400B6CAA4 /* Main.storyboard */; };
+		056FA89C1F7C95A400B6CAA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 056FA89B1F7C95A400B6CAA4 /* Assets.xcassets */; };
+		056FA89F1F7C95A400B6CAA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 056FA89D1F7C95A400B6CAA4 /* LaunchScreen.storyboard */; };
+		056FA8AA1F7C95A400B6CAA4 /* DrawCircleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 056FA8A91F7C95A400B6CAA4 /* DrawCircleTests.m */; };
+		056FA8B51F7C95A400B6CAA4 /* DrawCircleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 056FA8B41F7C95A400B6CAA4 /* DrawCircleUITests.m */; };
+		056FA8C41F7C95B800B6CAA4 /* CircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 056FA8C31F7C95B800B6CAA4 /* CircleView.m */; };
+		056FA8C71F7CA43200B6CAA4 /* SXYCircle.m in Sources */ = {isa = PBXBuildFile; fileRef = 056FA8C61F7CA43200B6CAA4 /* SXYCircle.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		056FA8A61F7C95A400B6CAA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 056FA8841F7C95A400B6CAA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 056FA88B1F7C95A400B6CAA4;
+			remoteInfo = DrawCircle;
+		};
+		056FA8B11F7C95A400B6CAA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 056FA8841F7C95A400B6CAA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 056FA88B1F7C95A400B6CAA4;
+			remoteInfo = DrawCircle;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		056FA88C1F7C95A400B6CAA4 /* DrawCircle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrawCircle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		056FA8901F7C95A400B6CAA4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		056FA8921F7C95A400B6CAA4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		056FA8931F7C95A400B6CAA4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		056FA8951F7C95A400B6CAA4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		056FA8961F7C95A400B6CAA4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		056FA8991F7C95A400B6CAA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		056FA89B1F7C95A400B6CAA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		056FA89E1F7C95A400B6CAA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		056FA8A01F7C95A400B6CAA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		056FA8A51F7C95A400B6CAA4 /* DrawCircleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrawCircleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		056FA8A91F7C95A400B6CAA4 /* DrawCircleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawCircleTests.m; sourceTree = "<group>"; };
+		056FA8AB1F7C95A400B6CAA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		056FA8B01F7C95A400B6CAA4 /* DrawCircleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrawCircleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		056FA8B41F7C95A400B6CAA4 /* DrawCircleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawCircleUITests.m; sourceTree = "<group>"; };
+		056FA8B61F7C95A400B6CAA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		056FA8C21F7C95B800B6CAA4 /* CircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleView.h; sourceTree = "<group>"; };
+		056FA8C31F7C95B800B6CAA4 /* CircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleView.m; sourceTree = "<group>"; };
+		056FA8C51F7CA43200B6CAA4 /* SXYCircle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SXYCircle.h; sourceTree = "<group>"; };
+		056FA8C61F7CA43200B6CAA4 /* SXYCircle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SXYCircle.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		056FA8891F7C95A400B6CAA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		056FA8A21F7C95A400B6CAA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		056FA8AD1F7C95A400B6CAA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		056FA8831F7C95A300B6CAA4 = {
+			isa = PBXGroup;
+			children = (
+				056FA88E1F7C95A400B6CAA4 /* DrawCircle */,
+				056FA8A81F7C95A400B6CAA4 /* DrawCircleTests */,
+				056FA8B31F7C95A400B6CAA4 /* DrawCircleUITests */,
+				056FA88D1F7C95A400B6CAA4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		056FA88D1F7C95A400B6CAA4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				056FA88C1F7C95A400B6CAA4 /* DrawCircle.app */,
+				056FA8A51F7C95A400B6CAA4 /* DrawCircleTests.xctest */,
+				056FA8B01F7C95A400B6CAA4 /* DrawCircleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		056FA88E1F7C95A400B6CAA4 /* DrawCircle */ = {
+			isa = PBXGroup;
+			children = (
+				056FA8921F7C95A400B6CAA4 /* AppDelegate.h */,
+				056FA8931F7C95A400B6CAA4 /* AppDelegate.m */,
+				056FA8951F7C95A400B6CAA4 /* ViewController.h */,
+				056FA8961F7C95A400B6CAA4 /* ViewController.m */,
+				056FA8C21F7C95B800B6CAA4 /* CircleView.h */,
+				056FA8C31F7C95B800B6CAA4 /* CircleView.m */,
+				056FA8C51F7CA43200B6CAA4 /* SXYCircle.h */,
+				056FA8C61F7CA43200B6CAA4 /* SXYCircle.m */,
+				056FA8981F7C95A400B6CAA4 /* Main.storyboard */,
+				056FA89B1F7C95A400B6CAA4 /* Assets.xcassets */,
+				056FA89D1F7C95A400B6CAA4 /* LaunchScreen.storyboard */,
+				056FA8A01F7C95A400B6CAA4 /* Info.plist */,
+				056FA88F1F7C95A400B6CAA4 /* Supporting Files */,
+			);
+			path = DrawCircle;
+			sourceTree = "<group>";
+		};
+		056FA88F1F7C95A400B6CAA4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				056FA8901F7C95A400B6CAA4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		056FA8A81F7C95A400B6CAA4 /* DrawCircleTests */ = {
+			isa = PBXGroup;
+			children = (
+				056FA8A91F7C95A400B6CAA4 /* DrawCircleTests.m */,
+				056FA8AB1F7C95A400B6CAA4 /* Info.plist */,
+			);
+			path = DrawCircleTests;
+			sourceTree = "<group>";
+		};
+		056FA8B31F7C95A400B6CAA4 /* DrawCircleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				056FA8B41F7C95A400B6CAA4 /* DrawCircleUITests.m */,
+				056FA8B61F7C95A400B6CAA4 /* Info.plist */,
+			);
+			path = DrawCircleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		056FA88B1F7C95A400B6CAA4 /* DrawCircle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 056FA8B91F7C95A400B6CAA4 /* Build configuration list for PBXNativeTarget "DrawCircle" */;
+			buildPhases = (
+				056FA8881F7C95A400B6CAA4 /* Sources */,
+				056FA8891F7C95A400B6CAA4 /* Frameworks */,
+				056FA88A1F7C95A400B6CAA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DrawCircle;
+			productName = DrawCircle;
+			productReference = 056FA88C1F7C95A400B6CAA4 /* DrawCircle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		056FA8A41F7C95A400B6CAA4 /* DrawCircleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 056FA8BC1F7C95A400B6CAA4 /* Build configuration list for PBXNativeTarget "DrawCircleTests" */;
+			buildPhases = (
+				056FA8A11F7C95A400B6CAA4 /* Sources */,
+				056FA8A21F7C95A400B6CAA4 /* Frameworks */,
+				056FA8A31F7C95A400B6CAA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				056FA8A71F7C95A400B6CAA4 /* PBXTargetDependency */,
+			);
+			name = DrawCircleTests;
+			productName = DrawCircleTests;
+			productReference = 056FA8A51F7C95A400B6CAA4 /* DrawCircleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		056FA8AF1F7C95A400B6CAA4 /* DrawCircleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 056FA8BF1F7C95A400B6CAA4 /* Build configuration list for PBXNativeTarget "DrawCircleUITests" */;
+			buildPhases = (
+				056FA8AC1F7C95A400B6CAA4 /* Sources */,
+				056FA8AD1F7C95A400B6CAA4 /* Frameworks */,
+				056FA8AE1F7C95A400B6CAA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				056FA8B21F7C95A400B6CAA4 /* PBXTargetDependency */,
+			);
+			name = DrawCircleUITests;
+			productName = DrawCircleUITests;
+			productReference = 056FA8B01F7C95A400B6CAA4 /* DrawCircleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		056FA8841F7C95A400B6CAA4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = yunfu;
+				TargetAttributes = {
+					056FA88B1F7C95A400B6CAA4 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					056FA8A41F7C95A400B6CAA4 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 056FA88B1F7C95A400B6CAA4;
+					};
+					056FA8AF1F7C95A400B6CAA4 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 056FA88B1F7C95A400B6CAA4;
+					};
+				};
+			};
+			buildConfigurationList = 056FA8871F7C95A400B6CAA4 /* Build configuration list for PBXProject "DrawCircle" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 056FA8831F7C95A300B6CAA4;
+			productRefGroup = 056FA88D1F7C95A400B6CAA4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				056FA88B1F7C95A400B6CAA4 /* DrawCircle */,
+				056FA8A41F7C95A400B6CAA4 /* DrawCircleTests */,
+				056FA8AF1F7C95A400B6CAA4 /* DrawCircleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		056FA88A1F7C95A400B6CAA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				056FA89F1F7C95A400B6CAA4 /* LaunchScreen.storyboard in Resources */,
+				056FA89C1F7C95A400B6CAA4 /* Assets.xcassets in Resources */,
+				056FA89A1F7C95A400B6CAA4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		056FA8A31F7C95A400B6CAA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		056FA8AE1F7C95A400B6CAA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		056FA8881F7C95A400B6CAA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				056FA8C41F7C95B800B6CAA4 /* CircleView.m in Sources */,
+				056FA8971F7C95A400B6CAA4 /* ViewController.m in Sources */,
+				056FA8C71F7CA43200B6CAA4 /* SXYCircle.m in Sources */,
+				056FA8941F7C95A400B6CAA4 /* AppDelegate.m in Sources */,
+				056FA8911F7C95A400B6CAA4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		056FA8A11F7C95A400B6CAA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				056FA8AA1F7C95A400B6CAA4 /* DrawCircleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		056FA8AC1F7C95A400B6CAA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				056FA8B51F7C95A400B6CAA4 /* DrawCircleUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		056FA8A71F7C95A400B6CAA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 056FA88B1F7C95A400B6CAA4 /* DrawCircle */;
+			targetProxy = 056FA8A61F7C95A400B6CAA4 /* PBXContainerItemProxy */;
+		};
+		056FA8B21F7C95A400B6CAA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 056FA88B1F7C95A400B6CAA4 /* DrawCircle */;
+			targetProxy = 056FA8B11F7C95A400B6CAA4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		056FA8981F7C95A400B6CAA4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				056FA8991F7C95A400B6CAA4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		056FA89D1F7C95A400B6CAA4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				056FA89E1F7C95A400B6CAA4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		056FA8B71F7C95A400B6CAA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		056FA8B81F7C95A400B6CAA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		056FA8BA1F7C95A400B6CAA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DrawCircle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yunfucloud.DrawCircle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		056FA8BB1F7C95A400B6CAA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DrawCircle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yunfucloud.DrawCircle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		056FA8BD1F7C95A400B6CAA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DrawCircleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yunfucloud.DrawCircleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DrawCircle.app/DrawCircle";
+			};
+			name = Debug;
+		};
+		056FA8BE1F7C95A400B6CAA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DrawCircleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yunfucloud.DrawCircleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DrawCircle.app/DrawCircle";
+			};
+			name = Release;
+		};
+		056FA8C01F7C95A400B6CAA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DrawCircleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yunfucloud.DrawCircleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DrawCircle;
+			};
+			name = Debug;
+		};
+		056FA8C11F7C95A400B6CAA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DrawCircleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yunfucloud.DrawCircleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DrawCircle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		056FA8871F7C95A400B6CAA4 /* Build configuration list for PBXProject "DrawCircle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				056FA8B71F7C95A400B6CAA4 /* Debug */,
+				056FA8B81F7C95A400B6CAA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		056FA8B91F7C95A400B6CAA4 /* Build configuration list for PBXNativeTarget "DrawCircle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				056FA8BA1F7C95A400B6CAA4 /* Debug */,
+				056FA8BB1F7C95A400B6CAA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		056FA8BC1F7C95A400B6CAA4 /* Build configuration list for PBXNativeTarget "DrawCircleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				056FA8BD1F7C95A400B6CAA4 /* Debug */,
+				056FA8BE1F7C95A400B6CAA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		056FA8BF1F7C95A400B6CAA4 /* Build configuration list for PBXNativeTarget "DrawCircleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				056FA8C01F7C95A400B6CAA4 /* Debug */,
+				056FA8C11F7C95A400B6CAA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 056FA8841F7C95A400B6CAA4 /* Project object */;
+}

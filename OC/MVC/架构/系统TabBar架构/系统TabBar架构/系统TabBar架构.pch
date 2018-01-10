@@ -1,0 +1,15 @@
+//
+//  系统TabBar架构.pch
+//  系统TabBar架构
+//
+//  Created by wangze on 16/1/28.
+//  Copyright © 2016年 huashan. All rights reserved.
+//
+
+#ifndef __TabBar___pch
+#define __TabBar___pch
+
+#import "GlobalDefine.h"
+#import "NextViewController.h"
+
+#endif /* __TabBar___pch */
